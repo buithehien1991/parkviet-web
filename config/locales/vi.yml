@@ -436,10 +436,10 @@ vi:
 
   spree:
     abbreviation: Từ khóa tắt
-    accept: Accept
-    acceptance_status: Acceptance status
-    acceptance_errors: Acceptance errors
-    accepted: Accepted
+    accept: chập nhận
+    acceptance_status: Trạng thái chập nhận
+    acceptance_errors: Chấp nhận lỗi
+    accepted: Đã chấp nhận
     account: Tài khoản
     account_updated: Tải khoản được cập nhật
     action: Hành động
@@ -452,7 +452,7 @@ vi:
       list: Liệt kê
       listing: Lên danh sách
       new: Mới
-      refund:
+      refund: Hoàn tiền
       save: Lưu
       update: Cập nhật
     activate: Kích hoạt
@@ -515,9 +515,9 @@ vi:
       user:
         account: Tài khoản
         addresses: Địa chỉ
-        items: Items
-        items_purchased: Items Purchased
-        order_history: Order History
+        items: Mặt hàng
+        items_purchased: Mặt hàng đã mua
+        order_history: Lịch sử đơn hàng
         order_num: "Đơn hàng #"
         orders: Đơn hàng
         user_information: Thông tin người dùng
@@ -570,19 +570,19 @@ vi:
     billing: Thanh Toán
     billing_address: "Địa chỉ thanh toán"
     both: Cả hai
-    calculated_reimbursements: Calculated Reimbursements
+    calculated_reimbursements: Hoàn trả đã tính
     calculator: Máy tính
     calculator_settings_warning: Nếu bạn đang thay đổi loại máy tính, bạn phải lưu trước khi thay đổi cấu hình máy tính
     cancel: Hủy
     canceled: Đã hủy
     canceler: Người hủy
     canceled_at: Đã hủy lúc
-    cannot_empty_completed_order: Order has already been processed so it cannot be emptied
-    cannot_create_payment_without_payment_methods: You cannot create a payment for an order without any payment methods defined.
+    cannot_empty_completed_order: Đơn hàng đã được xử lý để không thể bỏ trống
+    cannot_create_payment_without_payment_methods: Bạn không thể tạo một thanh toán cho một đơn hàng mà không có bất kỳ phương thức thanh toán nào được xác định
     cannot_create_customer_returns: Không thể tạo xử lý hàng hóa đã trả về cho đơn hàng mà chưa được vận chuyển.
     cannot_create_returns: Không thể trả hàng vì đơn hàng chưa được gửi.
-    cannot_perform_operation: Cannot perform requested operation
-    cannot_return_more_than_bought_quantity: Cannot return more than bought quantity.
+    cannot_perform_operation: Không thể thực hiện thao tác được yêu cầu
+    cannot_return_more_than_bought_quantity: Không thể trả lại nhiều hơn số lượng hàng đã mua
     cannot_set_shipping_method_without_address: Không thể cài cách thức vận chuyển đến khi thông tin cách hàng được cung cấp.
     capture: Nhận tiền
     capture_events: Capture events
@@ -597,7 +597,7 @@ vi:
     categories: Loại mặt hàng
     category: Loại mặt hàng
     channel: Kênh bán hàng
-    charged: Charged
+    charged: Đã tính phí
     checkout: Thủ tục mua hàng
     choose_a_customer: Chọn một khách hàng
     choose_a_taxon_to_sort_products_for: "Chọn một danh mục con để sắp xếp sản phẩm"
@@ -608,7 +608,7 @@ vi:
     clear_cache: Xóa bộ nhớ đệm
     clear_cache_ok: Bộ nhớ đệm đã được xóa
     clear_cache_warning: Xóa bộ nhớ đệm có thể làm giảm tạm thời hiệu suất hoạt động cửa hàng của bạn
-    click_and_drag_on_the_products_to_sort_them:
+    click_and_drag_on_the_products_to_sort_them: Nhấp chuột và kéo sản phẩm để sắp xếp
     clone: Nhân bản
     close: "Đóng"
     close_all_adjustments: "Đóng tất cả Điều chỉnh giá"
@@ -667,7 +667,7 @@ vi:
     current_promotion_usage: "Đã dùng: %{count}"
     customer: Khách hàng
     customer_details: Thông tin khách hàng
-    customer_details_updated: The customer's details have been updated.
+    customer_details_updated: Thông tin của khách hàng đã được cập nhật.
     customer_return: Xử lý hàng đã trả về
     customer_returns: Xử lý hàng đã trả về
     customer_search: Tìm kiếm khách hàng
@@ -682,13 +682,13 @@ vi:
     date_range: Thời gian
     default: Mặc định
     default_country_cannot_be_deleted: Quốc gia mặc định không thể bị xóa
-    default_refund_amount: Default Refund Amount
-    default_tax: Default Tax
+    default_refund_amount: Số tiền hoàn trả mặc định
+    default_tax: Thuế mặc định
     default_tax_zone: Thuế vùng mặc định
     delete: Xóa
     deleted: Đã xóa
     delete_from_taxon: Xóa khỏi danh mục con
-    discontinued_variants_present: Some line items in this order have products that are no longer available.
+    discontinued_variants_present: Một vài dòng mặt hàng trong đơn hàng này có sản phẩm không còn khả dụng
     delivery: Delivery
     depth: Sâu
     details: Chi tiết sản phẩm
@@ -697,13 +697,13 @@ vi:
     destroy: Hủy diệt
     discount_amount:
     discontinue_on: Kết thúc vào ngày
-    discontinued: Discontinued
-    dismiss_banner: No. Thanks! I'm not interested, do not display this message again
+    discontinued: Ngừng kinh doanh
+    dismiss_banner: Không. Cảm ơn. Tôi không thích, không hiển thị lại một lần nữa
     display: Hiển thị
-    doesnt_track_inventory: It doesn't track inventory
+    doesnt_track_inventory: Không theo dõi tồn kho
     edit: Sửa đổi
-    editing_resource: 'Editing %{resource}'
-    editing_rma_reason: Editing RMA Reason
+    editing_resource: 'Cập nhật %{resource}'
+    editing_rma_reason: Cập nhật lý do đổi trả hàng
     editing_user: Sửa đổi người dùng
     eligibility_errors:
       messages:
@@ -729,17 +729,17 @@ vi:
     error: lỗi
     errors:
       messages:
-        blank: can't be blank
+        blank: không thể để trống
         could_not_create_taxon: Không thể tạo phân loại
         no_shipping_methods_available: Không có cách thức vận chuyển cho địa điểm chọn, xin thay đổi địa chỉ và thử lại.
       services:
         get_shipping_rates:
-          no_shipping_address: To generate Shipping Rates Order needs to have a Shipping Address
-          no_line_items: To generate Shipping Rates you need to add some Line Items to Order
+          no_shipping_address: Để tạo tỷ giá vận chuyển đơn hàng cần phải có một địa chỉ vận chuyển
+          no_line_items: Để tạo tỷ giá vận chuyển bạn cần thêm vài mặt hàng vào đơn hàng
     errors_prohibited_this_record_from_being_saved:
       one: 1 lỗi xảy ra khi lưu
       other: "%{count} lỗi xảy ra khi lưu"
-    error_user_destroy_with_orders: User associated with orders cannot be destroyed
+    error_user_destroy_with_orders: Người dùng đã liên kết với đơn hàng sẽ không thể bị xóa bỏ
     event: Sự kiện
     events:
       spree:
@@ -755,13 +755,13 @@ vi:
         user:
           signup: Người dùng đăng kí
     exceptions:
-      count_on_hand_setter: Không thể thay count_on_hand vì giá trị này được tự động thay bởi recalculate_count_on_hand callback. Xin dùng `update_column(:count_on_hand, value)`.
-    exchange_for: Exchange for
-    expedited_exchanges_warning: "Any specified exchanges will ship to the customer immediately upon saving. The customer will be charged the full amount of the item if they do not return the original item within %{days_window} days."
+      count_on_hand_setter: Cannot set count_on_hand manually, as it is set automatically by the recalculate_count_on_hand callback. Please use `update_column(:count_on_hand, value)` instead.
+    exchange_for: Trao đổi với
+    expedited_exchanges_warning: "Bất kỳ đổi trả hàng cụ thể nào sẽ được vận chuyển đến khác hàng sau khi lưu. Khách hàng sẽ bị tính phí toàn bộ số tiền của mặt hàng nếu họ không trả lại hàng ban đầu trong vòng %{days_window} ngày."
     excl: excl.
     expiration: Hết hạn
     extension: Gói mở rộng
-    extensions_directory: Extensions Directory
+    extensions_directory: Thư mục gói mở rộng
     existing_shipments: Vận chuyển đã có
     failed_payment_attempts: Thanh toán thất bại
     filename: Tên tệp tin
@@ -791,7 +791,7 @@ vi:
     has_no_shipped_units: không có hàng nào đã gửi đi
     height: Cao
     home: Trang chủ
-    help_center: Help Center
+    help_center: Trung tâm trợ giúp
     i18n:
       available_locales: Các ngôn ngữ sẵn có
       fields: Trường
@@ -809,24 +809,24 @@ vi:
     images: Hình ảnh
     implement_eligible_for_return: "Must implement #eligible_for_return? for your EligibilityValidator."
     implement_requires_manual_intervention: "Must implement #requires_manual_intervention? for your EligibilityValidator."
-    inactive: Inactive
+    inactive: Không hoạt động
     incl: incl.
     included_in_price: Đã kèm trong giá
     included_price_validation: không thể chọn trừ khi bạn đã cài Mã vùng thuế mặc định
     incomplete: Chưa hoàn thành
-    info_product_has_multiple_skus: "This product has %{count} variants:"
+    info_product_has_multiple_skus: "Sản phầm này có %{count} biến thể:"
     info_number_of_skus_not_shown:
-      one: "and one other"
-      other: "and %{count} others"
+      one: "và một khác"
+      other: "và %{count} khác"
     instructions_to_reset_password: "Điền vào mẫu phía dưới và hướng dẫn cách thay đổi mật khẩu sẽ được gửi qua email đến bạn:"
     insufficient_stock: Không đủ hàng, chỉ còn lại %{on_hand}
-    insufficient_stock_item_quantity: Insufficient stock quantity available
-    insufficient_stock_lines_present: Some line items in this order have insufficient quantity.
+    insufficient_stock_item_quantity: Không đủ số lượng hàng sẵn có trong kho
+    insufficient_stock_lines_present: Một vài dòng mặt hàng trong đơn hàng này không đủ số lượng
     intercept_email_address: Can thiệp địa chỉ email
     intercept_email_instructions: Ghi đè người nhận email với địa chỉ này
     internal_name: Tên nội bộ
-    invalid_credit_card: Invalid credit card.
-    invalid_exchange_variant: Invalid exchange variant.
+    invalid_credit_card: Thẻ tín dụng không hợp lệ
+    invalid_exchange_variant: Trao đổi biến thể không hợp lệ.
     invalid_payment_provider: Nhà cung cấp thanh toán không đúng.
     invalid_promotion_action: Hành động khuyến mãi không đúng.
     invalid_promotion_rule: Quy tắc khuyến mãi không đúng.
@@ -847,18 +847,18 @@ vi:
         lt: nhỏ hơn
         lte: nhỏ hơn hoặc bằng
     items_cannot_be_shipped: Chúng tôi không thể tính chi phí giao hàng cho sản phẩm đã chọn
-    items_in_rmas: Items in Return Authorizations
-    items_to_be_reimbursed:  Items to be reimbursed
-    items_reimbursed: Items reimbursed
+    items_in_rmas: Mặt hàng trong yêu cầu đổi trả
+    items_to_be_reimbursed:  Mặt hàng đã được hoàn trả
+    items_reimbursed: Mặt hàng đã trả
     join_slack: Join Slack
     last_name: Họ
     last_name_begins_with: Tên họ bắt đầu với
     learn_more: "Đọc thêm"
-    lifetime_stats:  Lifetime Stats
+    lifetime_stats: Thống kê lịch sử giao dịch và mua hàng
     line_item_adjustments: Điều chỉnh giá theo mặt hàng
     list: Liệt kê
     loading: "Đang tải"
-    loading_tree: Loading tree. Please wait...
+    loading_tree: Đang tải cây. Vui lòng đợi...
     locale_changed: Thay đổi địa hóa
     location: "Địa điểm"
     lock: Khoá
@@ -886,7 +886,7 @@ vi:
       none: Không có
     max_items: Số hàng tối đa
     member_since: Thành viên từ
-    memo: Meno
+    memo: Ghi nhớ
     meta_description: Miêu tả SEO
     meta_keywords: Danh sách từ khóa SEO
     meta_title: Tiêu đề SEO
@@ -970,15 +970,15 @@ vi:
       product_not_deleted: Không thể xóa sản phẩm
       variant_deleted: Biến thể đã được xóa
       variant_not_deleted: Không thể xóa biến thể
-    num_orders: "# Orders"
-    number: Number
+    num_orders: "# Đơn hàng"
+    number: Số
     on_hand: Có hàng
     open: Mở
     open_all_adjustments: Mở tất cả Điều chỉnh giá
-    option_type: Option Type
+    option_type: Kiểu tùy chọn
     option_type_placeholder: Kiểu sản phẩm
     option_types: Kiểu tùy chọn
-    option_value: Option Value
+    option_value: Giá trị tùy chọn
     option_values: Giá trị tùy chọn
     optional: Không bắt buộc
     options: Tùy chọn
@@ -999,7 +999,7 @@ vi:
       cancel_email:
         dear_customer: Kính chào quý khách,\n
         instructions: "Đơn đặt hàng của quý khách bị hủy. Vui lòng kiểm tra lại đơn hàng của bạn."
-        order_summary_canceled: Thông tin đơn hàng %{number} [CANCELED]
+        order_summary_canceled: Thông tin đơn hàng %{number} [ĐÃ HỦY]
         subject: Hủy bỏ đơn hàng
       confirm_email:
         dear_customer: Kính chào quý khách,\n
@@ -1010,7 +1010,7 @@ vi:
     order_not_found: Không tìm thấy đơn hàng. Xin vui lòng thử hành động khác.
     order_number: Số đơn hàng
     order_processed_successfully: "Đơn đặt hàng của bạn đã được xử lý thành công"
-    order_resumed: Order resumed
+    order_resumed: Đơn hàng đã tiếp tục
     order_state:
       address: thêm địa chỉ
       awaiting_return: đang chờ trả lại hàng
@@ -1067,18 +1067,18 @@ vi:
     percent: Phần trăm
     percent_per_item:
     permalink: Liên kết tĩnh
-    pending: Pending
-    pending_sale: Pending Sale
+    pending: đang chờ xử lý
+    pending_sale: đang chờ bán hàng
     phone: "Điện thoại"
     place_order: "Đặt hàng"
     please_define_payment_methods: Vui lòng định nghĩa phương thức thanh toán trước
-    please_enter_reasonable_quantity: Please enter a reasonable quantity.
+    please_enter_reasonable_quantity: Vui lòng nhập một số lượng hợp lý
     populate_get_error: Đã xảy ra lỗi. Vu lòng cố gắng thêm mặt hàng một lần nữa
-    powered_by: Powered by
-    pre_tax_refund_amount: Pre-Tax Refund Amount
-    pre_tax_amount: Pre-Tax Amount
-    pre_tax_total: Pre-Tax Total
-    preferred_reimbursement_type: Preferred Reimbursement Type
+    powered_by: Tài trợ bỏi
+    pre_tax_refund_amount: Số tiền hoàn trả trước thuế
+    pre_tax_amount: Số tiền trước thuế
+    pre_tax_total: Tổng tiền trước thuế
+    preferred_reimbursement_type: Kiểu hoàn trả đã chọn
     presentation: Hiển thị
     preview_product: Xem trước sản phẩm
     previous: Trước
@@ -1165,7 +1165,7 @@ vi:
     prototypes: Hàng mẫu
     provider: Nhà cung cấp
     provider_settings_warning: Nếu thay đổi nhà cung cấp, bạn phải lưu trước khi sửa đổi cấu hình nhà cung cấp
-    purchased_quantity: Purchased Quantity
+    purchased_quantity: Số lượng đã mua
     qty: Số lượng
     quantity: Số lượng
     quantity_returned:
@@ -1186,17 +1186,17 @@ vi:
     refund_amount_must_be_greater_than_zero: Số tiền hoàn trả phải lớn hơn 0
     register: "Đăng ký như một thành viên mới"
     registration: "Đăng ký"
-    reimburse:
-    reimbursed:
-    reimbursement:
-    reimbursement_perform_failed:
-    reimbursement_status:
-    reimbursement_type:
-    reimbursement_type_override:
+    reimburse: Trả lại
+    reimbursed: Đã hoàn trả
+    reimbursement: Hoàn trả
+    reimbursement_perform_failed: "Hoàn trả không thể thực hiện. Lỗi: %{error}"
+    reimbursement_status: Trạng thái hoàn trả
+    reimbursement_type: Kiểu hoàn trả
+    reimbursement_type_override: Ghi đề kiểu hoàn trả
     reimbursement_types: Kiểu hoàn trả
-    reimbursements:
-    reject:
-    rejected:
+    reimbursements: Hoàn trả
+    reject: Từ chối
+    rejected: Đã từ chối
     remember_me: Nhớ tôi
     remove: Xóa
     rename: Đổi tên
@@ -1217,32 +1217,32 @@ vi:
       canceled: Đã hủy bỏ
     return_authorization_updated: "Yêu cầu đổi trả hàng hóa đã được cập nhật"
     return_authorizations: "Yêu cầu đổi trả"
-    return_item_inventory_unit_ineligible:
-    return_item_inventory_unit_reimbursed:
-    return_item_order_not_completed: Return item's order must be completed
-    return_item_rma_ineligible:
-    return_item_time_period_ineligible:
-    return_items:
-    return_items_cannot_be_associated_with_multiple_orders:
+    return_item_inventory_unit_ineligible: Tồn kho của mặt hàng trả lại phải được vận chuyển
+    return_item_inventory_unit_reimbursed: Tồn kho của mặt hàng trả lại đã được hoàn trả
+    return_item_order_not_completed: Đơn hàng của mặt hàng trả về phải được hoàn thành
+    return_item_rma_ineligible: Mặt hàng lại về yêu cầu một RMA
+    return_item_time_period_ineligible: Mặt hàng trả lại vượt quá thời gian được phép
+    return_items: Mặt hàng trả lại
+    return_items_cannot_be_associated_with_multiple_orders: Mặt hàng trả lại không được liên kết với nhiều đơn hàng
     reimbursement_mailer:
       reimbursement_email:
-        days_to_send:
-        dear_customer:
-        exchange_summary:
-        for:
-        instructions:
-        refund_summary:
-        subject:
-        total_refunded:
+        days_to_send: ! 'Bạn có %{days} ngày để gửi lại bất kỳ mặt hàng đang chờ để đổi trả.'
+        dear_customer: Khách hàng thân mến
+        exchange_summary: Hàng đổi trả
+        for: vì
+        instructions: Yêu cầu đổi trả hàng của bạn đang được xử lý
+        refund_summary: Hoàn tiền
+        subject: Thông báo đổi trả hàng hóa
+        total_refunded: ! 'Tổng tiền đã hoàn: %{total}'
         thanks: Thank you for your business.
-    return_number:
+    return_number: Số trả về
     return_quantity: Số lượng trả về
     returned: "Đã trả về"
-    review:
+    review: Đánh giá
     risk: Rủi ro
     risk_analysis: Phân tích rủi ro
     risky: Có rủi ro
-    rma_credit:
+    rma_credit: RMA Credit
     rma_number: Số RMA
     rma_value: Giá trị RMA
     role_id: Role ID
@@ -1267,7 +1267,7 @@ vi:
     select_from_prototype: Lựa chọn từ hàng mẫu
     select_a_return_authorization_reason: Chọn một lý do yêu cầu đổi trả hàng hóa
     select_a_stock_location: Chọn một vị trí kho
-    select_a_store_credit_reason: Select a reason for the store credit
+    select_a_store_credit_reason: Chọn một lý do cho tích điểm
     select_stock: Chọn hàng
     selected_quantity_not_available: ! 'selected of %{item} is not available.'
     seo_title: Tiêu đề SEO
@@ -1300,8 +1300,8 @@ vi:
       pending: đang chờ xử lý
       ready: sẵn sàng vận chuyển
       shipped: đã vận chuyển
-    shipment_transfer_success: 'Variants successfully transferred'
-    shipment_transfer_error: 'There was an error transferring variants'
+    shipment_transfer_success: 'Các mặt hàng đã được vận chuyển thành công'
+    shipment_transfer_error: 'Có lỗi khi vận chuyển các mặt hàng'
     shipments: Vận chuyển
     shipped: "Đã chuyển phát"
     shipping: Vận chuyển
@@ -1380,22 +1380,22 @@ vi:
     stock_location: "Vị trí kho"
     stock_location_info: Thông tin vị trí kho
     stock_locations: "Vị trí kho"
-    stock_locations_need_a_default_country:
+    stock_locations_need_a_default_country: Bạn phải tạo quốc gia mặc định trước khi tạo vị trí kho
     stock_management: Quản lý hàng
-    stock_management_requires_a_stock_location:
+    stock_management_requires_a_stock_location: Vui lòng tạo vị trí kho để quản lý kho
     stock_movements: Hoạt động tồn kho
     stock_movements_for_stock_location: Chuyển động của hàng cho %{stock_location_name}
     stock_successfully_transferred: Hàng đã thành công chuyển giữa dịa điểm.
-    stock_transfer_name: Stock Transfer
+    stock_transfer_name: Chuyển kho
     stock_transfer:
       errors:
-        must_have_variant: You must add atleast one variant.
+        must_have_variant: Bạn phải chọn ít nhất một biến thể
     stock_transfers: Chuyển hàng
     stop: Kết thúc
     store: Cửa hàng
     stores: Cửa hàng
     add_store: Cửa hàng mới
-    store_credit_name: Store Credit
+    store_credit_name: Tích điểm
     store_credit:
       credit: "Credit"
       authorized: "Authorized"
@@ -1454,7 +1454,7 @@ vi:
     tags_placeholder: Thêm thẻ
     taxon_rule:
       choose_taxons: Chọn danh mục con
-      label: Order must contain x amount of these taxons
+      label: Đơn hàng phải chứa số lượng x của danh mục con này
       match_all: tất cả
       match_any: ít nhất một
     taxonomies: Danh mục hàng hóa
@@ -1483,10 +1483,10 @@ vi:
     time: Giờ
     to_add_variants_you_must_first_define: "Để thêm biến thể, bạn phải tạo trước"
     total: Tổng
-    total_per_item: Total per item
-    total_pre_tax_refund: Total Pre-Tax Refund
+    total_per_item: Tổng mỗi mặt hàng
+    total_pre_tax_refund: Tổng hoàn tiền trước thuế
     total_price: Tổng giá
-    total_sales: Total Sales
+    total_sales: Tổng doanh số
     track_inventory: Theo dõi hàng tồn kho
     tracking: Theo dõi
     tracking_number: Số theo dõi
@@ -1500,7 +1500,7 @@ vi:
     type: Loại
     type_to_search: Gõ để tìm kiếm
     unable_to_connect_to_gateway: Không thề kết nối với cổng thanh toán.
-    unable_to_create_reimbursements: Unable to create reimbursements because there are items pending manual intervention.
+    unable_to_create_reimbursements: Không thể tạo yêu cầu hoàn trả vì có mặt hàng đang chờ can thiệp thủ công
     under_price: Dưới %{price}
     unlock: Mở khoá
     unrecognized_card_type: Không nhận ra được loại thẻ
@@ -1511,20 +1511,20 @@ vi:
     usage_limit: Giới hạn sử dụng
     use_app_default: Sử dụng mặc định
     use_billing_address: Dùng địa chỉ thanh toán
-    use_existing_cc: Use an existing card on file
+    use_existing_cc: Sử dụng thẻ đã dùng
     use_new_cc: Dùng thẻ mới
-    use_new_cc_or_payment_method: Use a new card / payment method
-    use_s3: Use Amazon S3 For Images
+    use_new_cc_or_payment_method: Dùng thẻ hoặc phương thức thanh toán mới
+    use_s3: Sử dụng Amazon S3 cho lưu trữ ảnh
     used: Used
     user: Người dùng
     user_rule:
-      choose_users: Choose users
+      choose_users: Chọn người dùng
     users: Người dùng
     validation:
-      unpaid_amount_not_zero:
-      cannot_be_less_than_shipped_units:
-      cannot_destroy_line_item_as_inventory_units_have_shipped:
-      exceeds_available_stock: Vượt quá lượng hàng hiện có. Xin hãy chắc chắn mục dòng có một số lượng hợp lệ.
+      unpaid_amount_not_zero: "Số tiền không được hoàn trả đầy đủ. Vẫn còn: %{amount}"
+      cannot_be_less_than_shipped_units: không thể nhỏ hơn số lượng đơn vị vận chuyển
+      cannot_destroy_line_item_as_inventory_units_have_shipped: Không thể xóa bỏ dòng mặt hàng vì một số đơn vị tồn kho đã vận chuyển
+      exceeds_available_stock: Vượt quá lượng hàng hiện có. Xin hãy chắc chắn dòng mặt hàng có một số lượng hợp lệ.
       is_too_large: quá lớn -- số hàng hiện có không đủ đáp ứng!
       must_be_int: phải là số nguyên
       must_be_non_negative: phải là số dương
