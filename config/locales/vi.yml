@@ -5,11 +5,11 @@ vi:
         spree/fulfilment_changer:
           attributes:
             desired_shipment:
-              can_not_transfer_within_same_shipment: can not be same as current shipment
-              not_enough_stock_at_desired_location: not enough stock in desired stock location
+              can_not_transfer_within_same_shipment: không thể cùng giao hàng hiện tại
+              not_enough_stock_at_desired_location: không đủ hàng trong tại vị trí kho mong muốn
             current_shipment:
               has_already_been_shipped: đã được giao hàng từ trước
-              can_not_have_backordered_inventory_units: has backordered inventory units
+              can_not_have_backordered_inventory_units: không thể đặt hàng khi hết đơn vị hàng tồn kho
   activerecord:
     attributes:
       spree/address:
@@ -128,12 +128,12 @@ vi:
         name: Tên
       spree/state_change:
         state_changes: Chuyển trạng thái
-        type: Type
+        type: Kiểu
         state_from: Trạng thái từ
         state_to: Trạng thái đến
-        user: User
-        timestamp: Timestamp
-        updated: Updated
+        user: Người dùng
+        timestamp: Thời gian theo dõi
+        updated: Đã cập nhật
       spree/store:
         url: URL trang web
         meta_description: Mô tả SEO
@@ -142,35 +142,35 @@ vi:
         name: Tên trang web
         mail_from_address: Địa chỉ mail gửi đi
       spree/store_credit:
-        amount_used: "Amount used"
+        amount_used: "Số đã sử dụng"
       spree/store_credit_category:
-        name: Name
+        name: Tên
       spree/tax_category:
-        description: Description
-        name: Name
+        description: Mô tả
+        name: Tên
       spree/tax_rate:
-        amount: Rate
-        included_in_price: Included in Price
-        show_rate_in_label: Show rate in label
+        amount: Thuế suất
+        included_in_price: Đã bao gồm trong giá
+        show_rate_in_label: Hiển thị thuế xuất trong nhãn
       spree/taxon:
-        name: Name
-        permalink: Permalink
-        position: Position
+        name: Tên
+        permalink: Siêu liên kết
+        position: Vị trí
       spree/taxonomy:
-        name: Name
+        name: Tên
       spree/user:
         email: Email
-        password: Password
-        password_confirmation: Password Confirmation
+        password: Mật khẩu
+        password_confirmation: Xác nhận mật khẩu
       spree/variant:
-        cost_currency: Cost Currency
+        cost_currency: Đơn vị giá tiền
         cost_price: Giá vốn
-        depth: Depth
-        height: Height
-        price: Price
+        depth: Sâu
+        height: Cao
+        price: Giá
         sku: Mã SKU
-        weight: Weight
-        width: Width
+        weight: Nặng
+        width: Rộng
       spree/zone:
         description: Mô tả
         name: Tên
@@ -188,17 +188,17 @@ vi:
         one: Xử lý hàng đã trả về
         other: Xử lý hàng đã trả về
       spree/inventory_unit:
-        one: Inventory Unit
-        other: Inventory Units
+        one: Đơn vị hàng tồn kho
+        other: Đơn vị hàng tồn kho
       spree/line_item:
-        one: Line Item
-        other: Line Items
+        one: Dòng mặt hàng
+        other: Dòng mặt hàng
       spree/option_type:
-        one: Option Type
-        other: Option Types
+        one: Kiểu tùy chọn
+        other: Kiểu tùy chọn
       spree/option_value:
-        one: Option Value
-        other: Option Values
+        one: Giá trị tùy chọn
+        other: Giá trị tùy chọn
       spree/order:
         one: Đơn hàng
         other: Đơn hàng
@@ -239,8 +239,8 @@ vi:
         one: Lý do yêu cầu đổi trả hàng
         other: Lý do yêu cầu đổi trả hàng
       spree/role:
-        one: Roles
-        other: Roles
+        one: Phân quyền
+        other: Phân quyền
       spree/shipment:
         one: Vận chuyển
         other: Vận chuyển
@@ -302,18 +302,18 @@ vi:
             base:
               keys_should_be_positive_number: "Tier keys should all be numbers larger than 0"
             preferred_tiers:
-              should_be_hash: "should be a hash"
+              should_be_hash: "nên là một hàm băm"
         spree/calculator/tiered_percent:
           attributes:
             base:
               keys_should_be_positive_number: "Tier keys should all be numbers larger than 0"
               values_should_be_percent: "Tier values should all be percentages between 0% and 100%"
             preferred_tiers:
-              should_be_hash: "should be a hash"
+              should_be_hash: "nên là một hàm băm"
         spree/classification:
           attributes:
             taxon_id:
-              already_linked: "is already linked to this product"
+              already_linked: "đã được liên kết với sản phẩm này"
         spree/credit_card:
           attributes:
             base:
@@ -695,7 +695,7 @@ vi:
     description: Miêu tả
     destination: "Đích đến"
     destroy: Hủy diệt
-    discount_amount:
+    discount_amount: Giá trị chiết khấu
     discontinue_on: Kết thúc vào ngày
     discontinued: Ngừng kinh doanh
     dismiss_banner: Không. Cảm ơn. Tôi không thích, không hiển thị lại một lần nữa
@@ -774,9 +774,9 @@ vi:
     first_item: Món hàng đầu tiên giá
     first_name: Tên
     first_name_begins_with: Tên bắt đầu với
-    flat_percent: "Định mức phần trăm"
-    flat_rate_per_order: Lãi suất sàn (cho từng đơn hàng)
-    flexible_rate: Lãi suất dao động
+    flat_percent: "Mức giá theo phần trăm"
+    flat_rate_per_order: Mức giá cố định (cho mỗi đơn hàng)
+    flexible_rate: Mức giá linh hoạt
     forgot_password: Quên mật khẩu
     free_shipping: Giao hàng miễn phí
     free_shipping_amount: "-"
@@ -892,7 +892,7 @@ vi:
     meta_title: Tiêu đề SEO
     metadata: Metadata
     mutable: Mutable
-    minimal_amount: Giá trị tối thiểu
+    minimal_amount: Giá trị tối thiểu để chiết khấu
     missing_return_authorization: ! 'Thiếu yêu cầu đổi trả cho mặt hàng %{item_name}.'
     month: Tháng
     more: Hơn nữa
@@ -957,7 +957,7 @@ vi:
     user_not_found: Không tim thấy người dùng
     none: None
     none_selected: Không được lựa chọn
-    normal_amount: Normal Amount
+    normal_amount: Giá bình thường (nhỏ hơn Giá trị tối thiểu)
     not: không
     not_available: N/A
     not_enough_stock: Không đủ hàng trong kho tại vị trí nguồn để hoàn thành việc chuyển hàng.
@@ -1085,7 +1085,7 @@ vi:
     previous_state_missing: "n/a"
     price: Giá
     price_range: Khoảng giá
-    price_sack: Price Sack
+    price_sack: Tính và giảm giá khi đơn hàng vượt mức
     process: Process
     product: Sản phẩm
     product_details: Chi tiết sản phẩm
@@ -1308,13 +1308,13 @@ vi:
     shipping_address: "Địa chỉ giao hàng"
     shipping_categories: Loại hình vận chuyển
     shipping_category: Loại hình vận chuyển
-    shipping_flat_rate_per_item: Giá thấp nhất với từng mục gói
-    shipping_flat_rate_per_order: Giá thấp nhất
-    shipping_flexible_rate: Suất linh hoạt với từng mục gói
+    shipping_flat_rate_per_item: Mức giá cố định với mỗi mặt hàng
+    shipping_flat_rate_per_order: Mức giá cố định mỗi đơn hàng
+    shipping_flexible_rate: Mức giá linh hoạt với mỗi kiện hàng
     shipping_instructions: Các chỉ dẫn vận chuyển
     shipping_method: Phương thức vận chuyển
     shipping_methods: Phương thức vận chuyển
-    shipping_price_sack: Xô giá
+    shipping_price_sack: Tính và giảm giá khi giá trị đơn hàng vượt mức
     shipping_rates:
       display_price:
         including_tax: "%{price} (đã bao gồm %{tax_amount} %{tax_rate_name})"
